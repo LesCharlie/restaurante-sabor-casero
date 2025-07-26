@@ -523,3 +523,105 @@ footer {
 }
 
 
+
+
+
+/* ============================
+   RESPONSIVE - Pantallas pequeñas
+============================ */
+@media screen and (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .logo-text {
+    font-size: 1.5em;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .nombre-empresa {
+    font-size: 3em;
+  }
+
+  .contenido-hero h1 {
+    font-size: 2em;
+  }
+
+  .contenido-hero p {
+    font-size: 1.2em;
+  }
+
+  .grid-menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .platillo {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .contenedor-contacto {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .info-contacto {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mapa iframe {
+    height: 300px;
+  }
+
+  .carrito-flotante {
+    width: 95%;
+    right: 2.5%;
+    bottom: 15px;
+    max-height: 60vh;
+    font-size: 0.9em;
+    padding: 15px;
+  }
+
+  .recuadro-nosotros {
+    padding: 20px;
+  }
+
+  .nosotros h2 {
+    font-size: 2em;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+
+  #botonWhatsApp {
+  font-size: 1.2em;
+  padding: 12px 20px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+}
+
